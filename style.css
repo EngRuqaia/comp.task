@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+.firstphoto {
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    position: relative;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 50px 90px;
+    position: absolute;
+    top: 0px;
+}
+
+.navbar .nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav-left .logo img {
+    width: 100px;
+}
+.navbar .nav-left a {
+    color: black;
+    margin:  15px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar .nav-left .active::after {
+    content: "";
+    border-bottom: 3px solid #9633bd;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    top: 88%;
+}
+.navbar .nav-right button {
+    background-image: url(login_button_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 100px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+
+.part1 {
+    position: absolute;
+    top: 300px;
+    left: 130px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.part1 .content h1{
+    margin-bottom: 10px ;
+}
+.part1 .content h1 span{
+    color: #8a22b3;
+}
+.part1 .content p{
+    color: rgba(128, 128, 128, 0.764);
+}
+.photos-of-man .photo1{
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    width:600px;
+}
+.photos-of-man .photo2{
+    position: absolute;
+    right: 190px;
+    top: 70px;
+    width: 300px;
+    height: 520px ;
+}
+.photos-of-man .photo3{
+    position: absolute;
+    right: 150px;
+    top: 450px;    
+    width: 380px;
+}
+.photos-of-man .photo4{
+    position: absolute;
+    right: 130px;
+    top: 490px;
+    width: 1300px;
+    height: 180px;
+}
+
+  
+
+
+.part2{
+    position: relative;
+}
+.part2 .part2-of-photos{
+    position: absolute;
+    left:260px;
+    margin-top: 90px;
+   
+}
+.part2 .girl img{
+    position: absolute;
+    left: 190px;
+    top: 187px;
+}
+.part2 .girl .content{
+    position: absolute;
+    left: 130px;
+    top: 350px;
+    text-align: center;
+}
+.part2 .girl h3{
+    text-align: center;
+    margin: 5px 0;
+    text-transform: capitalize;
+    color: #414141;
+}
+
+
+.clock p{
+    text-align: center;
+    line-height: 1.3;
+    margin: 3px;
+    color: #494949;
+    margin-top: 10px;
+}
+
+.part2 .clock img{
+    position: absolute;
+    left: 680px;
+    margin-top: 350px;
+}
+.part2 .clock .content{
+    position: absolute;
+    left: 600px;
+    top: 510px;
+    text-align: center;
+}
+.part2 .clock .content h3{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 5px 0;
+    margin-left: 20px;
+    color: #414141;
+    
+}
+  
+.part2 .discount img{
+    position: absolute;
+    left: 73%;
+    top: 565px;
+}
+.part2 .discount .content{
+    position: absolute;
+    left: 68%;
+    top: 700px;
+    text-align: center;
+}
+.part2 .discount .content h3{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 5px 0;
+    margin-left: 20px;
+    color: #414141;
+}
+
+.part2 .Kudzokaa img{
+    position: absolute;
+    left: 200px;
+    top: 700px;
+}
+.part2 .Kudzokaa .content{
+    position: absolute;
+    left: 240px;
+    top: 780px;
+    font-size: 20px;
+    /* font-weight: bold; */
+    color: white;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+/*  Start of third Section  */
+.part3{
+    position: absolute;
+    top: 1740px;
+    left: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.part3 .image2{
+    margin: 0 100px;
+    padding-bottom: 35px;
+}
+.part3 .image2 .content{
+    position: absolute;
+    top: 340px;
+    left: 430px;
+}
+.part3 .image2 .content p{
+    margin-top: 10px;
+    
+    color: #494949;
+    text-align: center;
+}
+.part3 .image3{
+    margin-top: 50px;
+}
+
+
+
+
+.full {
+    max-width: 100vw;
+    min-height: 600px;
+    overflow: hidden;
+    position: relative; 
+    top: 175vh;
+}
+.full .contain{
+    display: flex;
+    justify-content: space-between;
+}
+.full .mainphoto{
+   width: 115%;
+   position: absolute;
+   left: -60px;
+
+}
+.full .contain .left .btn1{
+    position: absolute;
+    top: 440px;
+    margin-left: 90px;
+    padding-left: 45px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-right: 5px;
+    border-radius: 10px;
+    border: #8a22b3;
+}
+.full .contain .left .btn2{
+    position: absolute;
+    top: 440px;
+    margin-left: 300px;
+    padding-left: 45px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-right: 5px;
+    border-radius: 10px;
+    border: #8a22b3;
+}
+.full .contain .left .apple{
+    position: absolute;
+    top: 447px;
+    left: 100px;
+   
+}
+.full .contain .left .playstore{
+    position: absolute;
+    top: 450px;
+    left: 308px;
+   
+}
+.full .contain .left .iconn{
+    position: absolute;
+    top: 500px;
+    margin-left: 20px;
+    left: 66px;
+}
+.full .contain .left .iconn img{
+    margin-left: 10px;
+}
+
+.full .contain .left .linkss{
+    position: absolute;
+    top: 553px;
+    left: 70px;
+
+}
+.full .contain .left .linkss a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.contain .right .final{
+  position: relative;
+  top: 215px;
+  right: 130px;
+}
